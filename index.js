@@ -12,7 +12,7 @@ const rootDiv = document.getElementById("root");
 
 let person = prompt("Warning ! What is your name?");
 
-if (person !== null) {
+if (person !== "") {
   const nameEl = document.getElementById("name");
   nameEl.textContent = `${person} IS A SCARY NAME`.toUpperCase();
   //   nameEl.style.color = "red";
