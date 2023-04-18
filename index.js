@@ -88,11 +88,11 @@ function createScaryImage() {
   const newImg = document.createElement("img");
 
   // Set the src of the image to a scary image
-  newImg.src = `./assets/img${Math.floor(Math.random() * 26 + 1)}`;
+  newImg.src = `./assets/img${Math.floor(Math.random() * 26 + 1)}.jpg`;
   console.log(newImg.src);
 
   // Set the width and height of the image to a random value between 100 and 200 pixels
-  const imageSize = Math.floor(Math.random() * 200) + 100;
+  const imageSize = Math.floor(Math.random() * 200) + 300;
   newImg.style.width = `${imageSize}px`;
   newImg.style.height = `${imageSize}px`;
 
