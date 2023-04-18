@@ -13,15 +13,13 @@
 }
 
 .name {
-  display: flex;
   position: fixed;
-  top: 36vh;
-  left: 35vw;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 50px;
-  z-index: 1;
+  width: 100vw;
+  text-align: center;
+  top: 20vh;
+  color: red;
+  font-size: 100px;
+  z-index: 2;
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
