@@ -1,6 +1,9 @@
 .divChild {
+  border: 1px solid white;
+  border-radius: 5px;
   height: 100px;
   width: 100px;
+  margin: 10px;
 }
 
 #root {
@@ -12,10 +15,11 @@
 .name {
   display: flex;
   position: fixed;
-  top: 50vh;
+  top: 36vh;
   left: 35vw;
   justify-content: center;
   align-items: center;
+  color: white;
   font-size: 50px;
   z-index: 1;
   font-weight: bold;
