@@ -18,8 +18,8 @@ if (person !== "" && person !== null) {
   //   nameEl.style.color = "red";
 
   //insering audio
-  var myAudio = new Audio("./assets/audioscare.mp3");
-  myAudio.play();
+  // var myAudio = new Audio("./assets/audioscare.mp3");
+  // myAudio.play();
 
   // Set the position of the root div to relative
   rootDiv.style.position = "relative";
