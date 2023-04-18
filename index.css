@@ -24,3 +24,9 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
 }
+
+@media screen and (max-width: 700px) {
+  .name {
+    font-size: 50px;
+  }
+}
